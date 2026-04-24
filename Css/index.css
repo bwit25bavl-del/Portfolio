@@ -30,7 +30,43 @@ nav {
     
 }
 
+    .menu_icon {
+        display: none;
+    }
+
 body{
     margin: 0px;
-    padding: 0px
+    padding: 0px;
+    background-color: pink;
+}
+.avichor {
+    height: 500px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+}
+
+.avichor img {
+    width: 200px;
+    border-radius: 5%;
+}
+@media(max-width:480px) {
+    body{
+        background-color: pink;
+    }
+    .logo{
+        height: 40px;
+        width: 40px;
+        font-size: 15px;
+    }
+    .menu{
+        display: none;
+    }
+
+    .menu_icon {
+        display: block;
+    }
+    .menu_icon svg{
+        color: black;
+    }
 }
