@@ -4,10 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/re.css">
 </head>
 <body>
     <nav>
-        <a href="../index.html">Home</a>
+        <div class="logo">AB</div>
+
+        <div class="menu"> 
+            <a href="../index.html">Home</a>
+            <a href="../html/About.html">About</a>
+            <a href="../html/Contact.html">Contact</a>
+            <a href="../html/Service.html">Service</a>
+        </div>
     </nav>
+
+    <div class="regi">
+        <form class="regi_menu" action="#" method="post">
+<div class="regi">
+            <label>General Information</label>
+            <select>
+                <option value="">Title</option>
+            </select>
+            <!-- <input type="text" name="title" placeholder="Title" required> -->
+             <div class="subs">
+
+                 <input type="text" name="first_name" placeholder="First Name" required>
+                 <input type="text" name="last_name" placeholder="Last Name" required>
+             </div>
+
+         
+ <select>
+                <option value="">Position</option>
+            </select>
+            <!-- <input type="text" name="position" placeholder="Position"> -->
+            <input type="text" name="company" placeholder="Company">
+
+            <div class="subs">
+                <input type="text" name="business_arena" placeholder="Business Arena">
+                 <select>
+                <option value="">Employees</option>
+            </select>
+            </div>
+            <!-- <input type="text" name="employees" placeholder="Employees"> -->
+            </div>
+<div class = "regi" id="reg_blue">
+            <label>Contact Details</label>
+            <input type="text" name="street" placeholder="Street">
+            <input type="text" name="additional_info" placeholder="Additional Information">
+            <input type="text" name="zip" placeholder="Zip Code">
+            <input type="text" name="place" placeholder="Place">
+            <input type="text" name="country" placeholder="Country">
+            <input type="text" name="code" placeholder="Code">
+            <input type="tel" name="phone" placeholder="Phone Number">
+            <input type="email" name="email" placeholder="Your Email">
+              <div class="check">
+                <input type="checkbox" id="terms" required>
+                <div for="terms">I do accept the Terms and Conditions of your site.</div>
+            </div>
+
+            <div class="Button">
+                <button type="submit">Register Badge</button>
+            </div>
+        </div>
+          
+
+        </form>
+    </div>
+    
 </body>
 </html>
